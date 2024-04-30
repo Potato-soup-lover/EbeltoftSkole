@@ -1,0 +1,174 @@
+/* style.css */
+
+
+body{
+ margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: gold;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: darkgoldenrod;
+}
+.navbar li{
+    float: left;
+}
+main{
+    text-align: center;
+}
+
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown button{
+    background-color: gold;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: gold;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: darkgoldenrod;
+}
+
+.dropdown a:hover{
+    background-color: darkgoldenrod;
+}
+
+.Pin-Canada{
+    visibility: hidden;
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+    position: absolute; left: 225px; bottom: 250px;
+}
+
+.Pin-Irland{
+    visibility: hidden;
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+    position: absolute; right: 820px; bottom: 175px;
+}
+.Pin-Thailand{
+    visibility: hidden;
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+    position: absolute; right: 245px; bottom: -25px;
+}
+.Pin-USA{
+    visibility: hidden;
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+    position: absolute; left: 175px; bottom: 100px;
+}
+.Pin-England{
+    visibility: hidden;
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+    position: absolute; right: 790px; bottom: 195px;
+}
+img{
+    visibility: visible;
+}
+.Extratext {
+    font-size: 50px;
+    text-align: center;
+}
+.text1 {
+    font-size: 30px;
+    position: absolute; top: 275px; left: 215px;
+}
+.text2 {
+    position: absolute; top: 350px; left: 215px;
+}
+.text3 {
+    font-size: 30px;
+    position: absolute; right: 215px; bottom: 175px;
+}
+.text4 {
+    position: absolute; right: 215px; bottom: 100px;
+}
+.text5 {
+    font-size: 30px;
+position: absolute; left: 215px; bottom: 0px;
+}
+.text6 {
+    position: absolute; left: 215px; bottom: -75px;
+}
+.Extratextphone {
+    font-size: 25px;
+    text-align: center;
+}
+.text1phone {
+    font-size: 20px;
+    text-align: center;
+}
+.text2phone {
+    font-size: 15px;
+    text-align: center;
+}
+.text3phone {
+    font-size: 20px;
+    text-align: center;
+}
+.text4phone {
+    font-size: 15px;
+    text-align: center;
+}
+.text5phone {
+    font-size: 20px;
+    text-align: center;
+}
+.text6phone {
+    font-size: 15px;
+    text-align: center;
+}
+
+ article {
+    width: clamp(200px, 50%, 600px);
+ }
+ .Ebeltoftskole {
+    font-size: 25px;
+ }
